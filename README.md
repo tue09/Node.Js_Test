@@ -1,4 +1,4 @@
-# Tue's Blog
+# Personal Blog
 
 Welcome to the Personal Blog project! This is a simple web application. This project allows you to create and manage posts on your personal blog.
 
@@ -40,4 +40,4 @@ This project is created by [Your Name].
 ## License
 
 This project is distributed under the [License Name] license. See the LICENSE file for more details.
-//Thís Project is still under construction
+//This Project is still under construction
