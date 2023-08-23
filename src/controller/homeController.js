@@ -7,9 +7,13 @@ const getTUe = (req, res) => {
 }
 
 const getNew = (req, res) => {
-    res.send('<h1>Hello tue qua dang cap di hhahehe</h1>')
+    res.send('<h1>Hello hhahehe</h1>')
+}
+
+const getFour = (req, res) => {
+    res.send("To be 4")
 }
 
 module.exports = {
-    getHomePage, getTUe, getNew
+    getHomePage, getTUe, getNew, getFour
 }
