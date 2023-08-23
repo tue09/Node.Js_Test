@@ -2,18 +2,22 @@ const getHomePage = (req, res) =>{
     return res.render('homePage.ejs')
 }
 
-const getTUe = (req, res) => {
-    res.render('sample.ejs')
+const getBlog = (req, res) => {
+    res.render('blog.ejs')
 }
 
-const getNew = (req, res) => {
-    res.send('<h1>Hello hhahehe</h1>')
+const getContacts = (req, res) => {
+    res.render('contacts.ejs')
 }
 
-const getFour = (req, res) => {
-    res.send("To be 4")
+const getLogIn = (req, res) => {
+    res.render('logIn.ejs')
+}
+
+const getSignUp = (req, res) => {
+    res.render('signUp.ejs')
 }
 
 module.exports = {
-    getHomePage, getTUe, getNew, getFour
+    getHomePage, getBlog, getContacts, getLogIn, getSignUp
 }
