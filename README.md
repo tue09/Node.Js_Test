@@ -35,9 +35,7 @@ Open a web browser and navigate to http://localhost:8080 to view your personal b
 
 ## Author
 
-This project is created by [Your Name].
+This project is created by Le Tue.
 
-## License
-
-This project is distributed under the [License Name] license. See the LICENSE file for more details.
-//This Project is still under construction
+## Note
+This project is still under construction
