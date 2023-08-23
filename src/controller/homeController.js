@@ -6,10 +6,6 @@ const getBlog = (req, res) => {
     res.render('blog.ejs')
 }
 
-const getContacts = (req, res) => {
-    res.render('contacts.ejs')
-}
-
 const getLogIn = (req, res) => {
     res.render('logIn.ejs')
 }
@@ -19,5 +15,5 @@ const getSignUp = (req, res) => {
 }
 
 module.exports = {
-    getHomePage, getBlog, getContacts, getLogIn, getSignUp
+    getHomePage, getBlog, getLogIn, getSignUp
 }
